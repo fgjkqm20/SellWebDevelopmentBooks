@@ -1,0 +1,39 @@
+@font-face {
+    font-family: bangers;
+    src: url(./font/Bangers.ttf);
+}
+
+@font-face {
+    font-family: ns-t;
+    src: url(./font/NotoSansKR-Thin.otf);
+}
+
+@font-face {
+    font-family: ns-l;
+    src: url(./font/NotoSansKR-Light.otf);
+}
+
+@font-face {
+    font-family: ns-m;
+    src: url(./font/NotoSansKR-Medium.otf);
+}
+
+@font-face {
+    font-family: ns-r;
+    src: url(./font/NotoSansKR-Regular.otf);
+}
+
+@font-face {
+    font-family: ns-b;
+    src: url(./font/NotoSansKR-Bold.otf);
+}
+
+@font-face {
+    font-family: ns-black;
+    src: url(./Noto_Sans_KR/NotoSansKR-Black.otf);
+}
+
+* {
+    font-family: ns-r;
+    color: #111111;
+}

@@ -1,0 +1,16 @@
+.main {
+    margin-left: 100px;
+}
+
+.text {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+img {
+    margin-right: 50px;
+}
+
+img:hover {
+    box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.5);
+}

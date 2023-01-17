@@ -1,0 +1,55 @@
+body {
+    padding-top: 100px;
+}
+
+.main-header {
+    margin-left: 100px;
+}
+
+.book-info {
+    margin-left: 100px;
+    height: 300px;
+}
+
+.book-img {
+    float: left;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.book-info-text {
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+}
+
+.book-info-text>div {
+    height: 50px;
+    line-height: 50px;
+}
+
+.attribute {
+    float: left;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #363636;
+}
+
+.purchase {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 30px;
+    background-color: paleturquoise;
+    border-color: paleturquoise;
+}
+
+.index {
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 500px;
+}

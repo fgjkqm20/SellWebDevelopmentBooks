@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 개발 책 판매</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/book-purchase.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="header-top-wrap">
+                <div class="header-top">
+                    <a href="./index.html">
+                        <h1>웹 개발 책 판매</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <form action="payment.html" method="post">
+                <div class="order-payment-header">
+                    <h1>주문/결제</h1>
+                </div>
+                <div class="orderer-info">
+                    <div>
+                        <div class="text">주문자 이름</div>
+                        <div class="text-input"><input type="text" name="order-name" required></div>
+                    </div>
+                    <div>
+                        <div class="text">주문자 이메일</div>
+                        <div class="text-input"><input type="text" name="order-email" required></div>
+                    </div>
+                    <div>
+                        <div class="text">주문자 휴대폰</div>
+                        <div class="text-input"><input type="text" name="order-phone" required></div>
+                    </div>
+                    <div>
+                        <div class="text">비밀번호</div>
+                        <div class="text-input"><input type="password" name="password" required></div>
+                    </div>
+                    <div>
+                        <div class="text">비밀번호 확인</div>
+                        <div class="text-input"><input type="password" name="passwordcheck" required></div>
+                    </div>
+                </div>
+
+                <div class="shipping-info-header">
+                    <h1>배송 정보</h1>
+                </div>
+                <div class="shipping-info">
+                    <div>
+                        <div class="text">이름</div>
+                        <div class="text-input"><input type="text" name="name" required></div>
+                    </div>
+                    <div>
+                        <div class="text">휴대폰</div>
+                        <div class="text-input"><input type="text" name="phone" required></div>
+                    </div>
+                    <div>
+                        <div class="text">주소</div>
+                        <div class="text-input"><input type="text" name="address" required></div>
+                    </div>
+                </div>
+
+                <div class="order-book-info-header">
+                    <h1>주문 도서</h1>
+                </div>
+                <div class="order-book-info-attribute">
+                    <ul>
+                        <li>도서 이미지</li>
+                        <li>도서 이름</li>
+                        <li>판매가</li>
+                        <li>수량</li>
+                    </ul>
+                </div>
+                <div class="order-book-info-content">
+                    <div><img width="100px" height="150px" src=""></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="payment-btn">
+                    <input type="submit" value="결제하기">
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div>
+                <p>관리자 : 고유빈</p>
+                <p>연락처 : 010-8264-2820</p>
+                <p>이메일 : 0921mail@naver.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

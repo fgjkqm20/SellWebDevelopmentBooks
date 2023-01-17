@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 50px;
+    background-color: #eef5f4;
+}
+
+.footer>div {
+    margin-left: 100px;
+}
+
+.footer>div>p {
+    margin: 0px;
+}
+
+.btn-box {
+    text-align: center;
+}

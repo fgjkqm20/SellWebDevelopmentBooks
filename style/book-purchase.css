@@ -1,0 +1,79 @@
+body {
+    padding-top: 75px;
+}
+
+
+.main {
+    margin-left: 100px;
+}
+
+.main h1 {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.orderer-info>div {
+    margin-top: 10px;
+    height: 20px;
+}
+
+.shipping-info>div {
+    margin-top: 10px;
+    height: 20px;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    height: 20px;
+}
+
+.text-input {
+    height: 20px;
+}
+
+.text-input>input {
+    height: 14px;
+}
+
+.order-book-info-attribute {
+    margin-top: 10px;
+}
+
+.order-book-info-attribute ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: antiquewhite;
+    width: 800px;
+}
+
+.order-book-info-attribute ul>li {
+    float: left;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.order-book-info-content {
+    height: 150px;
+}
+
+.order-book-info-content>div {
+    float: left;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.payment-btn {
+    margin-top: 25px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: paleturquoise;
+    border-color: paleturquoise;
+}
